@@ -8,7 +8,7 @@ export function Pagina2({setPageI}: Ipage) {
         <View style={styles.container}> 
             <Text>Página 2</Text>
             <TouchableOpacity onPress={()=> setPageI(1)}>
-                <Text>{'<<'}</Text>
+            <Text style={styles.botao}>{'<<'}</Text>
             </TouchableOpacity>
         </View>
     )
